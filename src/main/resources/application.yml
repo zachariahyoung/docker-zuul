@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    volume:
+      path: /volume/**
+      url: http://localhost:8080
+      sensitiveHeaders:
+
+ribbon:
+  eureka:
+    enabled: false
+
+server:
+  port: 8090
