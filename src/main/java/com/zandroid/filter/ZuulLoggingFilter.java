@@ -35,6 +35,7 @@ public class ZuulLoggingFilter extends ZuulFilter {
         log.info("auth string: " + authStringEnc);
 
         ctx.addZuulRequestHeader("Authorization", "Basic " + authStringEnc);
+
         return null;
 
     }

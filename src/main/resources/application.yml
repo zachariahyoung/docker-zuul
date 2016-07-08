@@ -1,13 +1,18 @@
-zuul:
-  routes:
-    volume:
-      path: /volume/**
-      url: http://localhost:8080
+#zuul:
+#  routes:
+#    volume:
+#      path: /volume/**
+#      url: http://localhost:8080
+#
+#zuul:
+#  routes:
+#    DOCKER-JPA: /volume/**
 
 
-ribbon:
-  eureka:
-    enabled: false
+
+#ribbon:
+#  eureka:
+#    enabled: false
 
 server:
   port: 8090
